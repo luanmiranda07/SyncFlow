@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SyncFlow | Sistema Inteligente para Controle de Mercado em Condomínios</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+  
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="brand">
+        <img
+          class="brand-badge"
+          src="{{ url_for('static', filename='img/logo.png') }}"
+          alt="Logo SyncFlow"
+        />
+        <span class="brand-name">SyncFlow</span>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#funcionalidades">Funcionalidades</a>
+        <a href="#analises">Análises</a>
+        <a href="#beneficios">Benefícios</a>
+      </nav>
+
+      <a href="#contato" class="nav-cta">Ver projeto</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Sistema Inteligente para Controle de Mercado em Condomínios</div>
+          <h1>Gestão de estoque, vendas e decisões inteligentes em um só lugar.</h1>
+          <p>
+            O SyncFlow é uma proposta de sistema web para controle de mercados em condomínios, com foco em redução de custos,
+            automação de processos, monitoramento de estoque e apoio inteligente à tomada de decisão.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#funcionalidades" class="btn-primary">Explorar funcionalidades</a>
+            <a href="#analises" class="btn-secondary">Ver dashboard</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <strong>+1.250</strong>
+              <span>Itens monitorados em tempo real</span>
+            </div>
+            <div class="stat-card">
+              <strong>98%</strong>
+              <span>Precisão no controle de estoque</span>
+            </div>
+            <div class="stat-card">
+              <strong>24h</strong>
+              <span>Acompanhamento contínuo das operações</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-preview">
+          <div class="preview-top">
+            <h3>Painel operacional</h3>
+            <span class="status-live">Sistema ativo</span>
+          </div>
+
+          <div class="preview-grid">
+            <div class="mini-card">
+              <small>Faturamento mensal</small>
+              <strong>R$ 18.450</strong>
+              <p>Crescimento de 12% em relação ao mês anterior.</p>
+            </div>
+
+            <div class="mini-card">
+              <small>Produtos com estoque baixo</small>
+              <strong>07 itens</strong>
+              <p>Alertas automáticos prontos para reposição.</p>
+            </div>
+
+            <div class="mini-card">
+              <small>Produto mais vendido</small>
+              <strong>Água Mineral 500ml</strong>
+              <p>Maior saída registrada na semana atual.</p>
+            </div>
+
+            <div class="mini-card">
+              <small>Consulta inteligente</small>
+              <strong>IA integrada</strong>
+              <p>Respostas analíticas via painel ou WhatsApp.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Uma solução pensada para o contexto do seu TCC</h2>
+          <p>
+            Esta interface representa a proposta de um sistema próprio do condomínio, reduzindo dependência de empresas terceiras,
+            melhorando o controle de mercadorias e tornando os preços mais acessíveis aos moradores.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="funcionalidades">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Principais funcionalidades</h2>
+          <p>
+            Estrutura visual voltada para demonstrar os módulos centrais do sistema: estoque, vendas, automação e inteligência analítica.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="icon-box">📦</div>
+            <h3>Controle de estoque</h3>
+            <p>Cadastro de produtos, entradas, saídas, quantidades mínimas e acompanhamento detalhado de disponibilidade.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon-box">🛒</div>
+            <h3>Gestão de vendas</h3>
+            <p>Registro de vendas por período, consolidação de faturamento e visão clara do desempenho operacional do mercadinho.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon-box">🤖</div>
+            <h3>IA integrada</h3>
+            <p>Camada inteligente para responder perguntas, analisar comportamento de consumo e apoiar decisões de compra.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon-box">📉</div>
+            <h3>Alertas automáticos</h3>
+            <p>Notificações quando um produto atingir quantidade crítica, evitando ruptura de estoque e perda de vendas.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon-box">💬</div>
+            <h3>Integração com WhatsApp</h3>
+            <p>Consultas rápidas para obter dados como produto mais vendido, valor arrecadado no mês e itens para reposição.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon-box">📊</div>
+            <h3>Dashboard gerencial</h3>
+            <p>Visualização simples e estratégica com métricas essenciais para o administrador acompanhar o mercado.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="analises">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Visão analítica do sistema</h2>
+          <p>
+            Exemplo de como seu projeto pode apresentar dados de forma visual para facilitar decisões de reposição, vendas e planejamento.
+          </p>
+        </div>
+
+        <div class="analytics">
+          <div class="panel">
+            <h3>Vendas por semana</h3>
+            <div class="chart">
+              <div class="bar-wrap">
+                <div class="bar" style="height: 45%;"></div>
+                <span>Sem 1</span>
+              </div>
+              <div class="bar-wrap">
+                <div class="bar" style="height: 58%;"></div>
+                <span>Sem 2</span>
+              </div>
+              <div class="bar-wrap">
+                <div class="bar" style="height: 72%;"></div>
+                <span>Sem 3</span>
+              </div>
+              <div class="bar-wrap">
+                <div class="bar" style="height: 88%;"></div>
+                <span>Sem 4</span>
+              </div>
+              <div class="bar-wrap">
+                <div class="bar" style="height: 67%;"></div>
+                <span>Sem 5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>Alertas de estoque</h3>
+            <div class="alert-list">
+              <div class="alert-item">
+                <div>
+                  <strong>Refrigerante 2L</strong>
+                  <p>Estoque atual: 2 unidades</p>
+                </div>
+                <span class="tag tag-danger">Reposição urgente</span>
+              </div>
+
+              <div class="alert-item">
+                <div>
+                  <strong>Macarrão instantâneo</strong>
+                  <p>Estoque atual: 4 unidades</p>
+                </div>
+                <span class="tag tag-warning">Atenção</span>
+              </div>
+
+              <div class="alert-item">
+                <div>
+                  <strong>Água sem gás</strong>
+                  <p>Estoque atual: 16 unidades</p>
+                </div>
+                <span class="tag tag-ok">Normal</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Benefícios da proposta</h2>
+          <p>
+            Além do controle operacional, o sistema fortalece a autonomia do condomínio e gera base para uma gestão mais eficiente e econômica.
+          </p>
+        </div>
+
+        <div class="benefits">
+          <div class="benefit-card">
+            <div class="icon-box" style="margin: 0 auto 8px;">💰</div>
+            <h4>Redução de custos</h4>
+            <p>Diminui dependência de terceiros e ajuda a tornar os preços mais acessíveis para os moradores.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="icon-box" style="margin: 0 auto 8px;">⚙️</div>
+            <h4>Automação</h4>
+            <p>Agiliza rotinas operacionais com alertas, consultas e acompanhamento contínuo do estoque.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="icon-box" style="margin: 0 auto 8px;">📈</div>
+            <h4>Decisão orientada por dados</h4>
+            <p>Permite identificar o que mais vende, o que sai menos e quando é necessário comprar novamente.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="icon-box" style="margin: 0 auto 8px;">🏢</div>
+            <h4>Valor para o condomínio</h4>
+            <p>Cria uma estrutura própria de gestão, alinhada com a realidade financeira e operacional do local.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contato">
+      <div class="container">
+        <div class="cta-box">
+          <div>
+            <h2>Protótipo visual do projeto SyncFlow</h2>
+            <p>
+              Esta página pode servir como base da apresentação visual do seu TCC. Ela já está pronta para você adaptar com novas seções,
+              imagens, telas do sistema, botão de login, área administrativa ou até integração com Java, Angular e banco MySQL no futuro.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a href="#">Apresentação do projeto</a>
+            <a href="#">Estrutura do sistema</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>SyncFlow © 2026 — Sistema Inteligente para Controle de Mercado em Condomínios</p>
+    </div>
+  </footer>
+</body>
+</html>
